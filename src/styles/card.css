@@ -25,6 +25,7 @@
 
 .card-container {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 92%;
@@ -61,7 +62,9 @@
     width: 100%;
   }
   .card-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin-left: 20px;
     margin-top: 52px;
     background-color: rgba(255, 255, 255, 0);

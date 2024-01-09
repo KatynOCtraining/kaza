@@ -5,6 +5,7 @@ import Appartement from "./pages/Appartement";
 import Erreur from "./pages/Erreur";
 import Accueil from "./pages/Accueil";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<Erreur />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

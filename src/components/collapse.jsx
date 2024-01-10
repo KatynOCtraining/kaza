@@ -7,16 +7,15 @@ export default function Collapse({ title, description }) {
 
   return (
     <div className="collapse" id={`collapse-${title}`}>
-      <div className="collapse-div">
+      <div className="collapse-div" onClick={() => setOpen(!open)}>
         <div className="collapse-title">{title}</div>
-        <span
-          className={`collapse-vectorDown ${open}`}
-          onClick={() => setOpen(!open)}
-        >
+        <span className={`collapse-vectorDown ${open ? "true" : ""}`}>
           <img src={vectorDown} alt="Icône flèche" />
         </span>
       </div>
-      {open && <div className="collapse-description">{description}</div>}
+      <div className={`collapse-description ${open ? "open" : ""}`}>
+        {description}
+      </div>
     </div>
   );
 }

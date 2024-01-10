@@ -43,11 +43,18 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #ff6060;
-  height: auto;
-  width: 80%;
+
+  width: 78%;
   line-height: 30px;
   margin-left: 100px;
-  padding: 15px 10px;
+  padding: 0px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.collapse-description.open {
+  max-height: 1000px;
 }
 
 @media screen and (max-width: 767px) {

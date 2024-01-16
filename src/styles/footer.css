@@ -1,5 +1,6 @@
 .footer {
   height: 209px;
+  width: 100%;
   background-color: #000000;
   color: #ffffff;
   display: flex;
@@ -14,16 +15,28 @@
   margin-top: 40px;
 }
 
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+}
+
 @media screen and (max-width: 767px) {
   .footer-txt {
     font-weight: 100;
     font-size: 15px;
   }
-}
-
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }

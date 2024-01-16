@@ -6,10 +6,6 @@
   margin-top: 20px;
 }
 
-nav {
-  margin-right: 20px;
-}
-
 .nav-active {
   padding: 30px;
   width: 50%;
@@ -18,10 +14,12 @@ nav {
   text-decoration: underline;
   font-size: 24px;
   font-weight: 500;
+  padding-right: 0px;
 }
 
 .nav-inactive {
   padding: 30px;
+  padding-right: 0px;
   width: 50%;
   color: #ff6060;
   position: relative;
@@ -32,31 +30,34 @@ nav {
 
 .logo {
   height: 68px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-right: 50px;
   margin-top: 8px;
 }
 
 @media screen and (max-width: 767px) {
-  nav {
-    margin-right: 10px;
-  }
+  /* .header {
+    justify-content: space-between;
+  } */
+  /* nav {
+    margin-right: 20px;
+  } */
 
   .nav-active {
-    padding: 10px;
-    font-size: 15px;
+    /* padding: 10px; */
+    font-size: 10px;
     text-transform: uppercase;
   }
 
   .nav-inactive {
-    padding: 10px;
-    font-size: 15px;
+    /* padding: 10px; */
+    font-size: 10px;
     text-transform: uppercase;
   }
 
   .logo {
     height: 35px;
-    margin-left: 20px;
-    margin-right: 70px;
+    /* margin-left: 20px; */
+    margin-right: 0px;
   }
 }

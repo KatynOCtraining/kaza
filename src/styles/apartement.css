@@ -8,25 +8,32 @@
 
 .apart-title-tag {
   font-weight: 500;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .apart-rate-host {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  margin-right: 25px;
+  margin-top: 100px;
+
   margin-bottom: 20px;
   gap: 10px;
 }
 
 .apart-collapse {
-  margin-left: -90px;
-  margin-bottom: 70px;
+  /* margin-left: -90px;
+  margin-right: 20px;
+  margin-bottom: 70px; */
+  width: 100%;
+  justify-content: space-between;
 }
 
 .apart-collapse ul {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -60,6 +67,7 @@ li {
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+    margin-right: 25px;
   }
   .apart-collapse {
     margin-top: -40px;
@@ -71,9 +79,9 @@ li {
   .apart-collapse li {
     width: 97%;
   }
-  .apart-title-tag {
+  /* .apart-title-tag {
     margin-left: 20px;
-  }
+  } */
 
   .tag-text {
     padding: 5px 10px;

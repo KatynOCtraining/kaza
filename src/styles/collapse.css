@@ -9,8 +9,8 @@
 }
 .collapse-div,
 .collapse-description {
-  width: 80%; /* Même largeur pour les deux */
-  margin-left: 100px; /* Même marge gauche pour les deux */
+  width: 100%; /* Même largeur pour les deux */
+  /* margin-left: 100px; Même marge gauche pour les deux */
 }
 
 .collapse-div {
@@ -51,7 +51,7 @@
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 1000ms ease-in-out, opacity 1000ms ease-in-out;
+  transition: max-height 1500ms ease-in-out, opacity 1000ms ease-in-out;
   padding: 5px 10px;
   box-sizing: border-box;
 }
@@ -59,6 +59,12 @@
 .collapse-description.open {
   max-height: 1000px;
   opacity: 1;
+}
+#collapse-Description {
+  padding-right: 30px;
+}
+#collapse-Équipements {
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -68,14 +74,22 @@
   }
 
   .collapse-div {
-    width: 92%;
-    margin-left: 20px;
+    width: 100%;
+    /* margin-left: 20px; */
   }
 
   .collapse-description {
-    width: 92%;
-    margin-left: 20px;
+    width: 100%;
     line-height: 20px;
     padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  #collapse-Description {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  #collapse-Équipements {
+    padding-left: 20px;
   }
 }

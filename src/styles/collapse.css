@@ -1,6 +1,7 @@
 .about {
   margin-top: 170px;
   margin-left: 80px;
+  margin-right: 80px;
   margin-bottom: 180px;
 }
 
@@ -71,6 +72,7 @@
   .about {
     margin-left: 0px;
     margin-top: 135px;
+    width: 100%;
   }
 
   .collapse-div {

@@ -4,6 +4,7 @@
   color: #ff6060;
   text-align: center;
   align-items: center;
+  line-height: normal;
 }
 
 .error-404 {
@@ -15,6 +16,9 @@
 
 .error-description {
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .error-return {

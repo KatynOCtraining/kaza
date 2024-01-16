@@ -1,7 +1,6 @@
 .host {
   display: flex;
   align-items: center;
-  margin-right: 51px;
   gap: 10px;
   margin-top: -90px;
 }
@@ -13,6 +12,7 @@
   max-width: min-content;
   text-align: right;
   font-weight: 500;
+  margin-top: 0px;
 }
 
 .host-img {

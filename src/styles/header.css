@@ -31,34 +31,24 @@
 
 .logo {
   height: 68px;
-  /* margin-left: 50px; */
+
   margin-right: 50px;
   margin-top: 8px;
 }
 
 @media screen and (max-width: 767px) {
-  /* .header {
-    justify-content: space-between;
-  } */
-  /* nav {
-    margin-right: 20px;
-  } */
-
   .nav-active {
-    /* padding: 10px; */
     font-size: 10px;
     text-transform: uppercase;
   }
 
   .nav-inactive {
-    /* padding: 10px; */
     font-size: 10px;
     text-transform: uppercase;
   }
 
   .logo {
     height: 35px;
-    /* margin-left: 20px; */
     margin-right: 0px;
   }
 }

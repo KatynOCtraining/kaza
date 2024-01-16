@@ -19,8 +19,8 @@
   max-width: 1440px;
   margin: 0 auto;
   margin-left: 0;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #root {

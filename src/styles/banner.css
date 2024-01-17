@@ -24,7 +24,7 @@
   font-size: 48px;
   font-weight: 400;
   position: absolute;
-  margin-top: -140px;
+  margin-top: -90px;
   left: 0;
   right: 0;
 }
@@ -53,8 +53,17 @@ h1 {
     width: 100%;
     text-align: start;
     line-height: 100%;
-    margin-top: -140px;
+    margin-top: -75px;
     justify-content: flex-start;
     margin-left: 30px;
+  }
+  .gotoline {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .gotoline {
+    display: none;
   }
 }

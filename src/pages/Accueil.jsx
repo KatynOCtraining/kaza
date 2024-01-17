@@ -7,7 +7,15 @@ import accomodations from "../datas/data.json";
 const Accueil = () => {
   return (
     <>
-      <Banner image={banner} title="Chez vous , partout et ailleurs" />
+      <Banner
+        image={banner}
+        title={
+          <div className="banner-title">
+            Chez vous,
+            <br className="gotoline" /> partout et ailleurs
+          </div>
+        }
+      />
       <section className="card-container">
         {accomodations.map((apart) => (
           <Card key={apart.id} data={apart} />
